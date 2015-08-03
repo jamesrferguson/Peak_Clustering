@@ -93,17 +93,22 @@ RUN DATA
 alpha = 1
 iterations = 1000
 
+extension_data = "Data/"
+extension_output = "Data/Output/"
+'''
 files = ['std1-file1.group.peakml', 'std1-file2.group.peakml','std1-file3.group.peakml','std1-file4.group.peakml',
          'std1-file5.group.peakml','std2-file1.group.peakml','std2-file2.group.peakml','std2-file3.group.peakml',
          'std2-file4.group.peakml','std2-file5.group.peakml']
+'''
+files = ['std1-file1.group.peakml']
 
 for file in files:
 
-    print("Running {}".format(file))
+    print("Running {}".format(extension_data+file))
 
-    add_cluster_data  = Adduct_Cluster_Data(file+".txt", "mulsub2.txt")
+    add_cluster_data  = Adduct_Cluster_Data(extension_data+file+".txt", "mulsub2.txt")
 
-    gibbs = Bivariate_Gibbs(add_cluster_data, alpha, iterations, file)
+    gibbs = Bivariate_Gibbs(add_cluster_data, alpha, iterations, extension_output+file)
 
     gibbs.run()
 
