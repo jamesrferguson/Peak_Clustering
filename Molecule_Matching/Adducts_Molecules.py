@@ -1,5 +1,4 @@
 from __future__ import division
-import math
 
 class Adduct:
     def __init__(self, mass, transform):

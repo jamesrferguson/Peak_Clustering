@@ -31,6 +31,7 @@ for file_name in stndrd1_adducts_files:
     file = open(file_name, 'r')
 
     line = file.readline()
+    # ignore 1st line of each file
     line = file.readline()
 
     while line != "":
