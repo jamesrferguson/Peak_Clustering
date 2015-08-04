@@ -1,0 +1,193 @@
+
+standard: StdMix2_1 name:  Hypoxanthine formula:  C5H4N4O mass: 136.038510772 
+ transforms: M+K 10.00% M+H 65.00% M+ACN+H 5.00% M+HC13 10.00% M+ACN+Na 5.00% M+Na 5.00% 
+standard: StdMix2_10 name:  Nicotinamide formula:  C6H6N2O mass: 122.048012825 
+ transforms: M+ACN+H 2.54% M+HC13 4.24% M+H2C13 1.69% M+H 91.53% 
+standard: StdMix2_11 name:  5-Oxoproline formula:  C5H7NO3 mass: 129.042593097 
+ transforms: M+ACN+H 7.14% M+HC13 14.29% M+NH4 4.76% M+2Na-H 2.38% M+H 71.43% 
+standard: StdMix2_12 name:  5'-Methylthioadenosine formula:  C11H15N5O3S mass: 297.089560065 
+ transforms: M+HC13 28.57% M+H2C13 14.29% M+Na 14.29% M+H 42.86% 
+standard: StdMix2_13 name:  Deoxyadenosine formula:  C10H13N5O3 mass: 251.10183931 
+ transforms: M+HC13 23.08% M+H2C13 15.38% M+H 61.54% 
+standard: StdMix2_14 name:  5-Methoxytryptamine formula:  C11H14N2O mass: 190.110613083 
+ transforms: M+HC13 18.75% M+H2C13 6.25% M+CH3OH+H 6.25% M+H 68.75% 
+standard: StdMix2_15 name:  L-Kynurenine formula:  C10H12N2O3 mass: 208.084792262 
+ transforms: M+2Na-H 15.38% M+HC13 23.08% M+Na 7.69% M+H 53.85% 
+standard: StdMix2_16 name:  Adenosine formula:  C10H13N5O4 mass: 267.096753932 
+ transforms: M+HC13 20.00% M+H 80.00% 
+standard: StdMix2_17 name:  Guanosine formula:  C10H13N5O5 mass: 283.091668555 
+ transforms: M+HC13 28.57% M+Na 28.57% M+H 42.86% 
+standard: StdMix2_18 name:  6-Methylaminopurine formula:  C6H7N5 mass: 149.070145251 
+ transforms: M+ACN+H 3.57% M+HC13 7.14% M+H2C13 7.14% M+H 82.14% 
+standard: StdMix2_19 name:  L-isoleucine formula:  C6H13NO2 mass: 131.094628667 
+ transforms: M+ACN+H 8.00% M+HC13 16.00% M+ACN+Na 4.00% M+H 72.00% 
+standard: StdMix2_2 name:  Picolinic acid formula:  C6H5NO2 mass: 123.03202841 
+ transforms: M+HC13 14.29% M+H 85.71% 
+standard: StdMix2_20 name:  Pyridoxal formula:  C8H9NO3 mass: 167.058243161 
+ transforms: M+HC13 10.00% M+Na 5.00% M+2ACN+H 5.00% M+NH4 5.00% M+H 75.00% 
+standard: StdMix2_21 name:  L-Tyrosine formula:  C9H11NO3 mass: 181.073893225 
+ transforms: M+HC13 15.38% M+H2C13 7.69% M+H 76.92% 
+standard: StdMix2_22 name:  Methylcysteine formula:  C4H9NO2S mass: 135.035399229 
+ transforms: M+ACN+H 13.33% M+HC13 6.67% M+H 80.00% 
+standard: StdMix2_23 name:  4-Trimethylammoniobutanoate formula:  C7H15NO2 mass: 145.110278732 
+ transforms: M+HC13 29.17% M+Na 4.17% M+H 66.67% 
+standard: StdMix2_24 name:  Betaine formula:  C5H11NO2 mass: 117.078978603 
+ transforms: M+HC13 15.79% M+H 84.21% 
+standard: StdMix2_25 name:  L-2-Aminoadipate formula:  C6H11NO4 mass: 161.068807847 
+ transforms: M+2Na-H 4.00% M+HC13 8.00% M+H 88.00% 
+standard: StdMix2_26 name:  4-(beta-Acetylaminoethyl)imidazole formula:  C7H11N3O mass: 153.090211991 
+ transforms: M+HC13 15.79% M+H2C13 5.26% M+Na 5.26% M+2H 5.26% M+H 68.42% 
+standard: StdMix2_27 name:  Methylguanidine formula:  C2H7N3 mass: 73.0639972407 
+ transforms: M+HC13 6.67% M+H 93.33% 
+standard: StdMix2_28 name:  1-Aminocyclopropane-1-carboxylate formula:  C4H7NO2 mass: 101.047678474 
+ transforms: M+ACN+H 0.89% M+HC13 1.33% M+ACN+2H 0.44% M+2ACN+H 0.44% M+H 96.89% 
+standard: StdMix2_29 name:  L-Carnitine formula:  C7H15NO3 mass: 161.105193354 
+ transforms: M+HC13 22.22% M+Na 8.33% M+H 69.44% 
+standard: StdMix2_3 name:  Menadione formula:  C11H8O2 mass: 172.052429501 
+ transforms: M+H 100.00% 
+standard: StdMix2_30 name:  L-Alanine formula:  C3H7NO2 mass: 89.0476784744 
+ transforms: M+ACN+H 5.88% M+HC13 17.65% M+H 76.47% 
+standard: StdMix2_31 name:  dAMP formula:  C10H14N5O6P mass: 331.068169721 
+ transforms: M+2Na-H 12.50% M+HC13 25.00% M+Na 25.00% M+NaC13 12.50% M+H 25.00% 
+standard: StdMix2_32 name:  4-Aminobutanoate formula:  C4H9NO2 mass: 103.063328539 
+ transforms: M+HC13 15.38% M+H 84.62% 
+standard: StdMix2_33 name:  L-homoserine formula:  C4H9NO3 mass: 119.058243161 
+ transforms: M+2Na-H 11.11% M+HC13 22.22% M+H 66.67% 
+standard: StdMix2_34 name:  Choline formula:  C5H13NO mass: 103.099714045 
+ transforms: M+HC13 11.76% M+H 88.24% 
+standard: StdMix2_35 name:  AMP formula:  C10H14N5O7P mass: 347.063084343 
+ transforms: M+2Na-H 14.29% M+Na 14.29% M+HC13 21.43% M+H 50.00% 
+standard: StdMix2_36 name:  cytosine formula:  C4H5N3O mass: 111.043261799 
+ transforms: M+2Na-H 7.69% M+HC13 15.38% M+Na 15.38% M+H 61.54% 
+standard: StdMix2_37 name:  N-Acetylornithine formula:  C7H14N2O3 mass: 174.100442327 
+ transforms: M+2Na-H 6.67% M+HC13 6.67% M+Na 20.00% M+H 66.67% 
+standard: StdMix2_38 name:  dCMP formula:  C9H14N3O7P mass: 307.056936332 
+ transforms: M+2Na-H 11.11% M+Na 33.33% M+H 55.56% 
+standard: StdMix2_39 name:  1-Aminopropan-2-ol formula:  C3H9NO mass: 75.0684139166 
+ transforms: M+HC13 2.44% M+H 97.56% 
+standard: StdMix2_4 name:  Phenol formula:  C6H6O mass: 94.0418648149 
+ transforms: M+H2C13 0.84% M+H 99.16% 
+standard: StdMix2_40 name:  Ala-Gly formula:  C5H10N2O3 mass: 146.069142198 
+ transforms: M+2Na-H 16.67% M+HC13 33.33% M+H 50.00% 
+standard: StdMix2_41 name:  NAD+ formula:  C21H27N7O14P2 mass: 663.109121638 
+ transforms: M+HC13 50.00% M+H 50.00% 
+standard: StdMix2_42 name:  Glycylglycine formula:  C4H8N2O3 mass: 132.053492134 
+ transforms: M+ACN+H 22.22% M+HC13 22.22% M+H 44.44% M+2Na-H 11.11% 
+standard: StdMix2_43 name:  S-Adenosyl-L-homocysteine formula:  C14H20N6O5S mass: 384.121588475 
+ transforms: M+2Na-H 14.29% M+Na 14.29% M+ACN+2H 28.57% M+H 42.86% 
+standard: StdMix2_44 name:  Choline phosphate formula:  C5H14NO4P mass: 183.066044456 
+ transforms: M+2Na-H 6.25% M+K 6.25% M+H 50.00% M+NaC13 6.25% M+HC13 12.50% M+ACN+Na 6.25% M+Na 12.50% 
+standard: StdMix2_45 name:  D-Glucosamine 6-phosphate formula:  C6H14NO8P mass: 259.045702944 
+ transforms: M+HC13 25.00% M+Na 25.00% M+H 50.00% 
+standard: StdMix2_46 name:  L-Cystathionine formula:  C7H14N2O4S mass: 222.067427639 
+ transforms: M+ACN+2H 16.67% M+2Na-H 8.33% M+2H 16.67% M+H 33.33% M+NaC13 8.33% M+HC13 8.33% M+Na 8.33% 
+standard: StdMix2_47 name:  HEPES formula:  C8H18N2O4S mass: 238.098727767 
+ transforms: M+2Na-H 8.11% M+K 16.22% M+H 35.14% M+NaC13 10.81% M+HC13 16.22% M+ACN+Na 2.70% M+Na 10.81% 
+standard: StdMix2_48 name:  Eflornithine formula:  C6H12F2N2O2 mass: 182.08668405 
+ transforms: M+2Na-H 13.33% M+Na 13.33% M+HC13 6.67% M+H 66.67% 
+standard: StdMix2_49 name:  N(pi)-Methyl-L-histidine formula:  C7H11N3O2 mass: 169.085126613 
+ transforms: M+2Na-H 6.06% M+HC13 6.06% M+H 87.88% 
+standard: StdMix2_5 name:  Thiopurine S-methylether formula:  C6H6N4S mass: 166.031316904 
+ transforms: M+ACN+H 3.03% M+HC13 6.06% M+H2C13 3.03% M+DMSO+H 3.03% M+H 84.85% 
+standard: StdMix2_50 name:  L-2_3-Diaminopropanoate formula:  C3H8N2O2 mass: 104.058577512 
+ transforms: M+2Na-H 12.50% M+H 87.50% 
+standard: StdMix2_51 name:  L-Ornithine formula:  C5H12N2O2 mass: 132.08987764 
+ transforms: M+2Na-H 3.85% M+HC13 19.23% M+Na 7.69% M+2ACN+H 3.85% M+H 65.38% 
+standard: StdMix2_52 name:  Trypanothione disulfide formula:  C27H47N9O10S2 mass: 721.288730159 
+ transforms: M+H 100.00% 
+standard: StdMix2_53 name:  agmatine formula:  C5H14N4 mass: 130.121846471 
+ transforms: M+HC13 16.67% M+ACN+2H 16.67% M+H 66.67% 
+standard: StdMix2_54 name:  1_3-Diaminopropane formula:  C3H10N2 mass: 74.0843983319 
+ transforms: M+HC13 19.05% M+H 80.95% 
+standard: StdMix2_55 name:  Dopamine formula:  C8H11NO2 mass: 153.078978603 
+ transforms: M+H 100.00% 
+standard: StdMix2_56 name:  FAD formula:  C27H33N9O15P2 mass: 785.157134463 
+ transforms: 
+standard: StdMix2_57 name:  Spermine formula:  C10H26N4 mass: 202.215746857 
+ transforms: M+H 100.00% 
+standard: StdMix2_58 name:  Lipoate formula:  C8H14O2S2 mass: 206.043521074 
+ transforms: M+H 100.00% 
+standard: StdMix2_59 name:  Phenylacetylglycine formula:  C10H11NO3 mass: 193.073893225 
+ transforms: M+2Na-H 10.00% M+HC13 25.00% M+H2C13 5.00% M+Na 5.00% M+H 55.00% 
+standard: StdMix2_6 name:  Biotin formula:  C10H16N2O3S mass: 244.088163081 
+ transforms: M+K 7.69% M+H 50.00% M+NaC13 7.69% M+HC13 15.38% M+ACN+Na 7.69% M+Na 11.54% 
+standard: StdMix2_60 name:  Phenylpyruvate formula:  C9H8O3 mass: 164.047344123 
+ transforms: M+HC13 28.57% M+H 71.43% 
+standard: StdMix2_61 name:  Mesaconate formula:  C5H6O4 mass: 130.026608681 
+ transforms: M+HC13 10.00% M+H 90.00% 
+standard: StdMix2_62 name:  succinate semialdehyde formula:  C4H6O3 mass: 102.031694059 
+ transforms: M+H 100.00% 
+standard: StdMix2_63 name:  3-(4-Hydroxyphenyl)pyruvate formula:  C9H8O4 mass: 180.042258746 
+ transforms: M+H 100.00% 
+standard: StdMix2_64 name:  Succinate formula:  C4H6O4 mass: 118.026608681 
+ transforms: M+H 100.00% 
+standard: StdMix2_65 name:  Taurocholate formula:  C26H45NO7S mass: 515.291673496 
+ transforms: M+H2C13 8.33% M+2Na-H 8.33% M+H 16.67% M+NH4 16.67% M+NaC13 16.67% M+HC13 16.67% M+Na 16.67% 
+standard: StdMix2_66 name:  2-Oxoglutarate formula:  C5H6O5 mass: 146.021523303 
+ transforms: M+H 100.00% 
+standard: StdMix2_67 name:  N-Acetylglutamine formula:  C7H12N2O4 mass: 188.079706885 
+ transforms: M+H2C13 2.27% M+KC13 2.27% M+2Na-H 2.27% M+K 2.27% M+H 79.55% M+NaC13 2.27% M+HC13 6.82% M+Na 2.27% 
+standard: StdMix2_68 name:  (S)-Malate formula:  C4H6O5 mass: 134.021523303 
+ transforms: M+ACN+H 14.29% M+H 85.71% 
+standard: StdMix2_69 name:  Folate formula:  C19H19N7O6 mass: 441.13968138 
+ transforms: M+HC13 20.00% M+H 40.00% M+ACN+2H 40.00% 
+standard: StdMix2_7 name:  Pantothenate formula:  C9H17NO5 mass: 219.110672662 
+ transforms: M+HC13 23.08% M+H2C13 7.69% M+Na 7.69% M+NaC13 15.38% M+H 46.15% 
+standard: StdMix2_70 name:  D-Ribose formula:  C5H10O5 mass: 150.052823432 
+ transforms: M+H 100.00% 
+standard: StdMix2_71 name:  FMN formula:  C17H21N4O9P mass: 456.104614807 
+ transforms: M+H 100.00% 
+standard: StdMix2_72 name:  Orotidine formula:  C10H12N2O8 mass: 288.059365373 
+ transforms: M+H 100.00% 
+standard: StdMix2_73 name:  allantoin formula:  C4H6N4O3 mass: 158.04399008 
+ transforms: M+CH3OH+H 3.03% M+H 87.88% M+HC13 9.09% 
+standard: StdMix2_74 name:  N-Acetylneuraminate formula:  C11H19NO9 mass: 309.105981215 
+ transforms: M+H 100.00% 
+standard: StdMix2_75 name:  L-Gulono-1_4-lactone formula:  C6H10O6 mass: 178.047738054 
+ transforms: M+H 100.00% 
+standard: StdMix2_76 name:  dUMP formula:  C9H13N2O8P mass: 308.040951917 
+ transforms: M+2Na-H 10.00% M+Na 10.00% M+NaC13 10.00% M+H 70.00% 
+standard: StdMix2_77 name:  sucrose formula:  C12H22O11 mass: 342.11621155 
+ transforms: M+K 33.33% M+H 66.67% 
+standard: StdMix2_78 name:  D-Glucuronolactone formula:  C6H8O6 mass: 176.03208799 
+ transforms: M+2Na-H 9.52% M+HC13 4.76% M+H 85.71% 
+standard: StdMix2_79 name:  dIMP formula:  C10H13N4O7P mass: 332.052185305 
+ transforms: M+Na 20.00% M+H 80.00% 
+standard: StdMix2_8 name:  thymine formula:  C5H6N2O2 mass: 126.042927448 
+ transforms: M+HC13 18.18% M+H 81.82% 
+standard: StdMix2_80 name:  sn-Glycerol 3-phosphate formula:  C3H9O6P mass: 172.013674534 
+ transforms: M+Na 7.69% M+H+Na 7.69% M+H 84.62% 
+standard: StdMix2_81 name:  GMP formula:  C10H14N5O8P mass: 363.057998965 
+ transforms: M+HC13 25.00% M+H 75.00% 
+standard: StdMix2_82 name:  D-Erythrose 4-phosphate formula:  C4H9O7P mass: 200.008589156 
+ transforms: M+ACN+H 10.00% M+H 90.00% 
+standard: StdMix2_83 name:  DL-Glyceraldehyde 3-phosphate formula:  C3H7O6P mass: 169.99802447 
+ transforms: M+H 100.00% 
+standard: StdMix2_84 name:  3-Phospho-D-glycerate formula:  C3H7O7P mass: 185.992939092 
+ transforms: 
+standard: StdMix2_85 name:  citrate formula:  C6H8O7 mass: 192.027002612 
+ transforms: M+NH4 12.50% M+H 87.50% 
+standard: StdMix2_86 name:  NADP+ formula:  C21H28N7O17P3 mass: 743.075452048 
+ transforms: 
+standard: StdMix2_87 name:  GDP formula:  C10H15N5O11P2 mass: 443.024329375 
+ transforms: 
+standard: StdMix2_88 name:  UDP-glucose formula:  C15H24N2O17P2 mass: 566.055020382 
+ transforms: 
+standard: StdMix2_89 name:  2-Deoxy-D-glucose formula:  C6H12O5 mass: 164.068473496 
+ transforms: M+H 100.00% 
+standard: StdMix2_9 name:  Uracil formula:  C4H4N2O2 mass: 112.027277383 
+ transforms: M+ACN+H 16.67% M+HC13 16.67% M+H 66.67% 
+standard: StdMix2_90 name:  D-Threose formula:  C4H8O4 mass: 120.042258746 
+ transforms: M+H 100.00% 
+standard: StdMix2_91 name:  (R)-Lactate formula:  C3H6O3 mass: 90.0316940591 
+ transforms: M+H 100.00% 
+standard: StdMix2_92 name:  Oxalate formula:  C2H2O4 mass: 89.9953085527 
+ transforms: M+H 100.00% 
+standard: StdMix2_93 name:  GTP formula:  C10H16N5O14P3 mass: 522.990659786 
+ transforms: 
+standard: StdMix2_94 name:  CTP formula:  C9H16N3O14P3 mass: 482.984511775 
+ transforms: 
+standard: StdMix2_95 name:  Acetyl-CoA formula:  C23H38N7O17P3S mass: 809.12577306 
+ transforms: 
+standard: StdMix2_96 name:  ATP formula:  C10H16N5O13P3 mass: 506.995745164 
+ transforms: 
