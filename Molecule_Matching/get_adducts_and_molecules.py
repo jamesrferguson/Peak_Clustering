@@ -20,6 +20,8 @@ class Molecule_Transforms:
                 if (row[0] != ''):
                     self.molecules.append(Molecule(row[0], row[1], row[2], float(row[3]), self.mass_interval))
 
+        csvfile.close()
+
         # read adduct details from peak cluster model output
         for file_name in self.adducts_files:
             print(file_name)
@@ -42,21 +44,23 @@ class Molecule_Transforms:
             for adduct in self.adducts:
                 molecule.check_adduct(adduct)
 
-        # write molecule details and matching adducts to output
-        output_file = open(self.output_file_name, 'w')
+        with open(self.output_file_name, 'wb') as csvfile:
+            writer = csv.writer(csvfile, delimiter=',')
+            writer.writerow(["Standard", "Name", "Formula", "Mass", ' ', "Transforms"])
+            for molecule in self.molecules:
+                adducts = molecule.get_transforms()
 
-        for molecule in self.molecules:
-            adducts = molecule.get_transforms()
+                list = [molecule.get_standard(), molecule.get_name(), molecule.get_formula(),
+                                 molecule.get_mass(),' ']
 
-            transform_details = ""
+                for transform in adducts:
+                    list.append(transform)
+                    list.append(adducts[transform])
+                    list.append(adducts[transform]/molecule.get_adduct_count())
 
-            for adduct in adducts:
-                transform_details += adduct+" {0:.2f}% ".format(adducts[adduct]/molecule.get_adduct_count()*100)
+                writer.writerow(list)
 
-            output_file.write("\nstandard: {} name: {} formula: {} mass: {} \n transforms: {}".format(molecule.get_standard(), molecule.get_name(), molecule.get_formula(),
-                                                   molecule.get_mass(), transform_details))
-
-        output_file.close()
+        csvfile.close()
 
 '''
 RUN
@@ -71,8 +75,8 @@ stndrd1_adducts_files = ["std1-file1.group.peakml_RUN_JF.txt", "std1-file2.group
 stndrd2_adducts_files = ["std2-file1.group.peakml_RUN_JF.txt", "std2-file2.group.peakml_RUN_JF.txt", "std2-file3.group.peakml_RUN_JF.txt",
                  "std2-file4.group.peakml_RUN_JF.txt", "std2-file5.group.peakml_RUN_JF.txt"]
 
-stndrd1 = Molecule_Transforms(stndrd1_molecules_filename, stndrd1_adducts_files, "stndrd1_molecules_with_transforms.txt", 0.01)
-stndrd2 = Molecule_Transforms(stndrd2_molecules_filename, stndrd2_adducts_files, "stndrd2_molecules_with_transforms.txt", 0.01)
+stndrd1 = Molecule_Transforms(stndrd1_molecules_filename, stndrd1_adducts_files, "stndrd1_molecules_with_transforms.csv", 0.01)
+stndrd2 = Molecule_Transforms(stndrd2_molecules_filename, stndrd2_adducts_files, "stndrd2_molecules_with_transforms.csv", 0.01)
 
 stndrd1.run()
 stndrd2.run()
