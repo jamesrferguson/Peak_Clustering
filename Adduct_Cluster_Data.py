@@ -100,8 +100,8 @@ files = ['std1-file1.group.peakml', 'std1-file2.group.peakml','std1-file3.group.
          'std1-file5.group.peakml','std2-file1.group.peakml','std2-file2.group.peakml','std2-file3.group.peakml',
          'std2-file4.group.peakml','std2-file5.group.peakml']
 '''
-files = ['std1-file1.group.peakml']
-
+files = ['testtxt']
+'''
 for file in files:
 
     print("Running {}".format(extension_data+file))
@@ -113,6 +113,12 @@ for file in files:
     gibbs.run()
 
 print("DONE")
-#vb = Variational_Bayes(add_cluster_data, alpha, iterations)
+'''
+for file in files:
+    print("Running {}".format(extension_data+file))
 
-#vb.run()
+    add_cluster_data  = Adduct_Cluster_Data(extension_data+file+".txt", "mulsub2.txt")
+
+    vb = Variational_Bayes(add_cluster_data, alpha, iterations, extension_output+file)
+
+    vb.run()

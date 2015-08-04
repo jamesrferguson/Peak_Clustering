@@ -4,7 +4,7 @@ from scipy.special import psi
 
 class Variational_Bayes:
 
-    def __init__(self, adduct_cluster_data, alpha, iterations):
+    def __init__(self, adduct_cluster_data, alpha, iterations, output):
         self.adduct_cluster_data = adduct_cluster_data
         self.peaks = self.adduct_cluster_data.get_peaks()
         self.only_one_cluster = self.adduct_cluster_data.get_only_one_cluster()
@@ -12,7 +12,7 @@ class Variational_Bayes:
         self.K = len(adduct_cluster_data.get_clusters())
         self.alpha = alpha/self.K
         self.iterations = iterations
-        self.output_file_name = 'Adducts_Output_VB.txt'
+        self.output_file_name = output+'_VB_RUN_JF.txt'
 
     def run(self):
         # set parameter values for peaks with only one possible cluster
